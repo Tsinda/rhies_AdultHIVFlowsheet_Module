@@ -127,6 +127,14 @@ public class LabGroup {
 		}
 		return null;
 	}
+	public Obs getCreatClearence() {
+		for(Lab lab : labs) {
+			Obs obs = lab.getCreatClearence();
+			if(obs != null)
+				return obs;
+		}
+		return null;
+	}
 	
 	public Obs getGlucose() {
 		for(Lab lab : labs) {

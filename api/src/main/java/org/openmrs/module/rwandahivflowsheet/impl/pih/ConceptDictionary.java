@@ -289,6 +289,8 @@ public class ConceptDictionary {
 
 	public static int SERUM_CREATININE ;
 
+	public static int CREATININE_CLEARANCE;
+
 	public static int SERUM_GLUCOSE;
 
 	public static int SERUM_GLUTAMIC_OXALOACETIC_TRANSAMINASE ;

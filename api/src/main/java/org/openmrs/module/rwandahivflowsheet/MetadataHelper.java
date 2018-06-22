@@ -208,6 +208,9 @@ public class MetadataHelper {
             ConceptDictionary.RESULT_OF_TB_SMEAR_NEGATIVE  = setup("RESULT_OF_TB_SMEAR_NEGATIVE", props, unfoundItems);
             
             ConceptDictionary.SERUM_CREATININE   = setup("SERUM_CREATININE", props, unfoundItems);
+
+            ConceptDictionary.CREATININE_CLEARANCE   = setup("CREATININE_CLEARANCE", props, unfoundItems);
+
             ConceptDictionary.SERUM_GLUCOSE   = setup("SERUM_GLUCOSE", props, unfoundItems);
             ConceptDictionary.SERUM_GLUTAMIC_OXALOACETIC_TRANSAMINASE   = setup("SERUM_GLUTAMIC_OXALOACETIC_TRANSAMINASE", props, unfoundItems);
             ConceptDictionary.SERUM_GLUTAMIC_PYRUVIC_TRANSAMINASE   = setup("SERUM_GLUTAMIC_PYRUVIC_TRANSAMINASE", props, unfoundItems);

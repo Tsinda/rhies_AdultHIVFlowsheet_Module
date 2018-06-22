@@ -27,6 +27,8 @@ public interface Lab extends BaseObs {
 
 	public abstract Obs getCreat();
 
+	public abstract Obs getCreatClearence();
+
 	public abstract Obs getGlucose();
 
 	public abstract Obs getRpr();

@@ -18,6 +18,7 @@
 					<th scope="col" id="col-labs-9">SGOT<br/>(iu/l)</th>
 					<th scope="col" id="col-labs-10">SGPT<br/>(iu/l)</th>
 					<th scope="col" id="col-labs-11">Creat.<br/>(µmol./l)</th>
+					<th scope="col" id="col-labs-11">Clairance<br/>de la<br/>Creat.</th>
 					<th scope="col" id="col-labs-12">Glucose<br/>(mg/dl)</th>
 					<th scope="col" id="col-labs-13">RPR(annual)</th>
 					<th scope="col" id="col-labs-14">Autre<br/>examen</th>
@@ -48,6 +49,10 @@
 						<td><span class="value-data"><openmrs:format obsValue="${labRow.sgot}"/></span></td>
 						<td><span class="value-data"><openmrs:format obsValue="${labRow.sgpt}"/></span></td>
 						<td><span class="value-data"><openmrs:format obsValue="${labRow.creat}"/></span></td>
+
+						<td><span class="value-data"><openmrs:format obsValue="${labRow.creatClearence}"/></span></td>
+
+
 						<td><span class="value-data"><openmrs:format obsValue="${labRow.glucose}"/></span></td>
 						<td>
 							<jsp:useBean id="labRow" type="org.openmrs.module.rwandahivflowsheet.mapper.LabGroup" />
@@ -62,7 +67,7 @@
 				</c:forEach>
 				<tr class="new-item-button-row">
 				    <td/>
-					<td colspan="16">
+					<td colspan="17">
 						<button onClick="showEntryPopup('New Lab', ${formData.labFormId}); return false;">Nouveau</button>
 					<!-- 	<c:if test="${!empty formData.encounterTypeEncs}">
 						&nbsp;&nbsp;&nbsp;

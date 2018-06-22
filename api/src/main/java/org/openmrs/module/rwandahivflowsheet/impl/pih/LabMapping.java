@@ -158,7 +158,13 @@ public class LabMapping extends ObsMapping implements Comparable<LabMapping>, La
 	public Obs getCreat() {
 		return getObsOfType(ConceptDictionary.SERUM_CREATININE);
 	}
-	
+
+	@Override
+	public Obs getCreatClearence()  {
+		return getObsOfType(ConceptDictionary.CREATININE_CLEARANCE);
+	}
+
+
 	/* (non-Javadoc)
 	 * @see org.openmrs.module.rwandahivflowsheet.web.controller.LabMapper#getGlucose()
 	 */

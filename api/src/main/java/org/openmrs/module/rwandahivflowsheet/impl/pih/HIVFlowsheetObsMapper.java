@@ -478,7 +478,7 @@ public class HIVFlowsheetObsMapper {
 	public List<LabGroup> getLabsTablePedi() {
 		Integer[] labConceptIds = {	ConceptDictionary.LABORATORY_EXAMINATIONS_CONSTRUCT, ConceptDictionary.OTHER_LAB_TEST_CONSTRUCT, ConceptDictionary.HEMOGLOBIN, ConceptDictionary.HEMATOCRIT, ConceptDictionary.WHITE_BLOOD_CELLS, 
 				ConceptDictionary.GRANULOCYTE, ConceptDictionary.ABSOLUTE_LYMPHOCYTE_COUNT, ConceptDictionary.PLATELETS, ConceptDictionary.SERUM_GLUTAMIC_OXALOACETIC_TRANSAMINASE,
-				ConceptDictionary.SERUM_GLUTAMIC_PYRUVIC_TRANSAMINASE, ConceptDictionary.SERUM_CREATININE, ConceptDictionary.SERUM_GLUCOSE, ConceptDictionary.RAPID_PLASMIN_REAGENT,
+				ConceptDictionary.SERUM_GLUTAMIC_PYRUVIC_TRANSAMINASE, ConceptDictionary.SERUM_CREATININE,ConceptDictionary.CREATININE_CLEARANCE, ConceptDictionary.SERUM_GLUCOSE, ConceptDictionary.RAPID_PLASMIN_REAGENT,
 				ConceptDictionary.CD4_COUNT, ConceptDictionary.HIV_VIRAL_LOAD, ConceptDictionary.CD4_PERCENTAGE};
 
 		Collection<LabMapping> collection = getObsView(labConceptIds, LabMapping.class);
