@@ -107,6 +107,24 @@
 			a comma-delimited list of program uuids, ids, or names.  If in programs listed, the patient will have the pedi flowsheet link in the patient dashboard.
 		</description>
 	</globalProperty>
+
+	<globalProperty>
+		<property>rwandaadulthivflowsheet.pediShowPatientChartLinksIfPatientHasAge</property>
+		<defaultValue>15</defaultValue>
+		<description>
+			Maximum Age for the pedi patient to have pedi flowsheet link in the patient dashboard.
+		</description>
+	</globalProperty>
+	<globalProperty>
+		<property>rwandaadulthivflowsheet.adultShowPatientChartLinksIfPatientHasAge</property>
+		<defaultValue>15</defaultValue>
+		<description>
+			Minimum Age for the adult patient to have adult flowsheet link in the patient dashboard.
+		</description>
+	</globalProperty>
+
+
+
 	<globalProperty>
 		<property>rwandapedihivflowsheet.Form_NewAllergy</property>
 		<defaultValue>8b595f0e-e035-4011-b06a-04515dfc2bd9</defaultValue>

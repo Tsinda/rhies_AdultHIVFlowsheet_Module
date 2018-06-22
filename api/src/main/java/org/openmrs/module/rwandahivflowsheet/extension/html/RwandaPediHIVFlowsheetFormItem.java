@@ -26,6 +26,8 @@ public class RwandaPediHIVFlowsheetFormItem extends LinkExt {
 		    String patientId = this.getParameterMap().get("patientId");
 		    Patient p = Context.getPatientService().getPatient(Integer.valueOf(patientId));
 			String gp = Context.getAdministrationService().getGlobalProperty("rwandaadulthivflowsheet.pediShowPatientChartLinksIfInProgram");
+			String gpForAge = Context.getAdministrationService().getGlobalProperty("rwandaadulthivflowsheet.pediShowPatientChartLinksIfPatientHasAge");
+			int patientAge=Integer.parseInt(gpForAge);
 			boolean programFound = false;
 			if (gp != null && !gp.equals("")){
 				String[] gpSplit = gp.split(",");
@@ -41,9 +43,9 @@ public class RwandaPediHIVFlowsheetFormItem extends LinkExt {
 					
 					if (prog != null){
 						List<PatientProgram> programs = Context.getProgramWorkflowService().getPatientPrograms(p, prog, null, null, null, null, false);
-						 if (programs != null && programs.size() > 0){ 
+						 if (programs != null && programs.size() > 0 && p.getAge()<patientAge){
 			    	            return "Pedi HIV Flowsheet";
-						 }  
+						 }
 						 programFound = true;
 					} 
 				}
