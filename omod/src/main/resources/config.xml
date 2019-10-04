@@ -100,28 +100,28 @@
 	</globalProperty>
 	<globalProperty>
 		<property>rwandaadulthivflowsheet.Form_CbsIndexForm</property>
-		<defaultValue>b6a065d8-ab14-4958-acab-7707a950865b</defaultValue>
+		<defaultValue>b4dd2801-697e-4772-806b-425949df0322</defaultValue>
 		<description>
 			adult form CBS Index test, partner notification, recency
 		</description>
 	</globalProperty>
 	<globalProperty>
 		<property>rwandaadulthivflowsheet.Form_CbsResult</property>
-		<defaultValue>ff8e0531-7563-4a5d-81f9-1db802a8085c</defaultValue>
+		<defaultValue>cad4fef7-d937-478b-802d-6dfb8976dc8f</defaultValue>
 		<description>
 			adult form CBS Recency result
 		</description>
 	</globalProperty>
 	<globalProperty>
 		<property>rwandaadulthivflowsheet.Form_CbsEnrollment</property>
-		<defaultValue>928d2f84-a97f-4280-bea3-0b2a91f3665b</defaultValue>
+		<defaultValue>ea547162-7214-4096-9f18-d76ec5b55d00 </defaultValue>
 		<description>
 			adult form CBS Enrollment form
 		</description>
 	</globalProperty>
 	<globalProperty>
 		<property>rwandaadulthivflowsheet.Form_CbsFollowupVisit</property>
-		<defaultValue>5aec5510-7038-4d21-b90a-47704dee68b2</defaultValue>
+		<defaultValue>b6b80525-af95-4a59-b254-6af295559990</defaultValue>
 		<description>
 			adult form CBS followup visits
 		</description>
