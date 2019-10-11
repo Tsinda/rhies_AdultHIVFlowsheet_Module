@@ -553,13 +553,11 @@ public class HIVFlowsheetObsMapper {
 	public Collection<CbsIndex> getCbsIndex() {
 		// Because Obs can be contained in sets make sure to order this ordered so sets are
 		// loaded first.  The individual obs will be filtered out.
-//		Integer[] conceptIds = { ConceptDictionary.CBS_CONTACT_CODE, ConceptDictionary.CBS_CONTACT_AGE};
 		Integer[] conceptIds = { ConceptDictionary.CBS_ENROLLMENT_DATE};
 
 		Collection<CbsIndexMapping> cbsindexsLists = getObsView(conceptIds, CbsIndexMapping.class);
 
 		cbsindexsLists.add(new CbsIndexMapping(new Obs()));
-		//cbsindexsLists.add(new CbsIndexMapping(new Obs()));
 
 		return new ArrayList<CbsIndex>(cbsindexsLists);
 	}
@@ -568,13 +566,12 @@ public class HIVFlowsheetObsMapper {
 	public Collection<CbsEnrollment> getCbsEnrollment() {
 		// Because Obs can be contained in sets make sure to order this ordered so sets are
 		// loaded first.  The individual obs will be filtered out.
-//		Integer[] conceptIds = { ConceptDictionary.CBS_INDEX_CASE_TYPE, ConceptDictionary.ENROLLED_IN_CBS};
+
 		Integer[] conceptIds = { ConceptDictionary.CBS_INDEX_CASE_TYPE};
 
 		Collection<CbsEnrollmentMapping> cbsenrollmentLists = getObsView(conceptIds, CbsEnrollmentMapping.class);
 
 		cbsenrollmentLists.add(new CbsEnrollmentMapping(new Obs()));
-		//cbsenrollmentLists.add(new CbsEnrollmentMapping(new Obs()));
 
 		return new ArrayList<CbsEnrollment>(cbsenrollmentLists);
 	}
@@ -582,13 +579,11 @@ public class HIVFlowsheetObsMapper {
 	public Collection<CbsFollowup> getCbsFollowup() {
 		// Because Obs can be contained in sets make sure to order this ordered so sets are
 		// loaded first.  The individual obs will be filtered out.
-//		Integer[] conceptIds = { ConceptDictionary.CBS_DEMOGRAPHIC_CHANGE, ConceptDictionary.RISK_FACTOR_CHANGE};
 		Integer[] conceptIds = { ConceptDictionary.CBS_DEMOGRAPHIC_CHANGE};
 
 		Collection<CbsFollowupMapping> cbsfollowupLists = getObsView(conceptIds, CbsFollowupMapping.class);
 
 		cbsfollowupLists.add(new CbsFollowupMapping(new Obs()));
-		//cbsfollowupLists.add(new CbsFollowupMapping(new Obs()));
 
 		return new ArrayList<CbsFollowup>(cbsfollowupLists);
 	}
@@ -600,7 +595,6 @@ public class HIVFlowsheetObsMapper {
 
 		Collection<CbsResultMapping> cbsresultLists = getObsView(conceptIds, CbsResultMapping.class);
 
-		cbsresultLists.add(new CbsResultMapping(new Obs()));
 		cbsresultLists.add(new CbsResultMapping(new Obs()));
 
 		return new ArrayList<CbsResult>(cbsresultLists);
