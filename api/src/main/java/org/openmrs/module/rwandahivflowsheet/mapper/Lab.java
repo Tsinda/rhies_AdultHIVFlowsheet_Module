@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 import org.openmrs.Obs;
+import org.openmrs.module.heightweighttracker.mapper.BaseObs;
 
 public interface Lab extends BaseObs {
 
