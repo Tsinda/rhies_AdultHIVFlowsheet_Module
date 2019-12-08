@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.openmrs.Encounter;
 import org.openmrs.Obs;
 import org.openmrs.module.rwandahivflowsheet.mapper.Lab;
 
