@@ -113,6 +113,13 @@
 		</description>
 	</globalProperty>
 	<globalProperty>
+		<property>rwandaadulthivflowsheet.Form_CbsContact</property>
+		<defaultValue>a4b77098-d910-4170-8744-3a34b3b4d8e2</defaultValue>
+		<description>
+			adult form CBS Contact form
+		</description>
+	</globalProperty>
+	<globalProperty>
 		<property>rwandaadulthivflowsheet.Form_CbsEnrollment</property>
 		<defaultValue>ea547162-7214-4096-9f18-d76ec5b55d00 </defaultValue>
 		<description>

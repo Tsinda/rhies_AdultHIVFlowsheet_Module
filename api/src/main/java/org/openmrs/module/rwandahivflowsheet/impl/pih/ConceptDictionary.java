@@ -424,6 +424,8 @@ public class ConceptDictionary {
 
 	public static int ADULT_CBS_ENROLLMENT_FORM;
 
+	public static int ADULT_CBS_CONTACT_FORM;
+
 	public static int PEDI_ALLERGY_FORM;
 	
 	public static int PEDI_HOSPITALISATION_FORM;

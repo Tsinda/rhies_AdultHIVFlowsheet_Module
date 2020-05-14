@@ -601,6 +601,19 @@ public class HIVFlowsheetObsMapper {
 
 	}
 
+	public Collection<CbsContact> getCbsContact() {
+		// Because Obs can be contained in sets make sure to order this ordered so sets are
+		// loaded first.  The individual obs will be filtered out.
+		Integer[] conceptIds = { ConceptDictionary.CBS_CONTACT_CODE};
+
+		Collection<CbsContactMapping> cbscontactLists = getObsView(conceptIds, CbsContactMapping.class);
+
+		cbscontactLists.add(new CbsContactMapping(new Obs()));
+
+		return new ArrayList<CbsContact>(cbscontactLists);
+
+	}
+
     public Collection<Problem> getProblems() {
     	// Because Obs can be contained in sets make sure to order this ordered so sets are
 		// loaded first.  The individual obs will be filtered out.

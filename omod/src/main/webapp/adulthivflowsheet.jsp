@@ -315,8 +315,10 @@
                 </div>
             <div style="page-break-before: always" id="cbs-followup">
                 <%@ include file="fragments/cbs_index.jspf"%>
+                <%@ include file="fragments/cbs_contact.jspf"%>
                 <%@ include file="fragments/cbs_enrollment.jspf"%>
                 <%@ include file="fragments/cbs_result.jspf"%>
+
 
             </div>
             <div style="page-break-before: always" id="visits" >

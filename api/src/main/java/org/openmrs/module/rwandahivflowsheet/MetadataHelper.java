@@ -338,6 +338,7 @@ public class MetadataHelper {
             ConceptDictionary.ADULT_CBS_ENROLLMENT_FORM =setupForm("rwandaadulthivflowsheet.Form_CbsEnrollment");
             ConceptDictionary.ADULT_CBS_INDEX_FORM =setupForm("rwandaadulthivflowsheet.Form_CbsIndexForm");
             ConceptDictionary.ADULT_CBS_RECENCY_VL_FORM =setupForm("rwandaadulthivflowsheet.Form_CbsResult");
+            ConceptDictionary.ADULT_CBS_CONTACT_FORM =setupForm("rwandaadulthivflowsheet.Form_CbsContact");
             ConceptDictionary.PEDI_ALLERGY_FORM = setupForm("rwandapedihivflowsheet.Form_NewAllergy");
             ConceptDictionary.PEDI_OI_FORM = setupForm("rwandapedihivflowsheet.Form_NewOI");
             ConceptDictionary.PEDI_HOSPITALISATION_FORM = setupForm("rwandapedihivflowsheet.Form_NewHospitalisations");
