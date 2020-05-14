@@ -18,7 +18,6 @@
                     <tr <c:if test="${not cbscontact.emr}">class="empty-row"</c:if>>
                         <td class="section-emr"><c:if test="${cbscontact.emr}">&#x2713;</c:if></td>
                             <td class="view-row" align="center">
-
                                 <a href="javascript:void(0)" onClick="showEntryAppendPopup('CBS Contact', ${formData.cbsContactFormId}, ${cbscontact.encounter.encounterId}); return false;">
                                 <img src="${pageContext.request.contextPath}/images/file.gif" title="<spring:message code="general.view"/>" border="0" align="top" />
                             </a>
@@ -26,6 +25,7 @@
 
                         <td>
                             <span class="value-date"><c:choose><c:when test="${cbscontact.emr}"><openmrs:formatDate date="${cbscontact.encounter.encounterDatetime}" format="${FormatDate_General}"/></c:when><c:otherwise>${DateTextPlaceHolder}</c:otherwise></c:choose></span>
+                            <span> | <openmrs:format obsValue="${cbscontact.cbsContactCode}"/></span>
                                 </td>
 
                             </tr>
