@@ -14,4 +14,4 @@ Proprietary.
 [Rwanda Biomedical Centre (RBC)](https://www.rbc.gov.rw/)
 
 ## Main Contributors
-* Developers: ?
+* Developers: Anatole ABE, Pierre Damien MURINDANGABO CYUZUZO
