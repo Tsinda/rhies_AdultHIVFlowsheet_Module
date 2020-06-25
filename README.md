@@ -20,3 +20,8 @@ Mozilla Public License 2.0
 
 ## Main Contributors
 * Developers: Anatole ABE, Pierre Damien MURINDANGABO CYUZUZO
+
+## Libraries We Use
+The following sets forth attribution notices for third party software that may be contained in portions of this repository. We thank the open source community for all of their contributions.
+
+* OpenMRS [openmrs-module-rwandahivflowsheet](https://github.com/PIH/openmrs-module-rwandahivflowsheet) (License: OpenMRS Public License 1.0)
