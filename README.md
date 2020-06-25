@@ -14,6 +14,7 @@ Mozilla Public License 2.0
 
 ## In Collaboration with
 [Partners In Health](https://www.pih.org/)
+
 [Rwanda Biomedical Centre (RBC)](https://www.rbc.gov.rw/)
 
 ## Main Contributors
