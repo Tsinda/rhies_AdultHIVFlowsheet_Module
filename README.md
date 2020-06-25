@@ -13,9 +13,10 @@ Mozilla Public License 2.0
 [Savics SRL](https://savics.org)
 
 ## In Collaboration with
-[Partners In Health](https://www.pih.org/)
-
 [Rwanda Biomedical Centre (RBC)](https://www.rbc.gov.rw/)
+
+## Special Thanks to
+[Partners In Health](https://www.pih.org/)
 
 ## Main Contributors
 * Developers: Anatole ABE, Pierre Damien MURINDANGABO CYUZUZO
